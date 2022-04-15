@@ -31,4 +31,4 @@ Users should be able to:
 
 ====================================
 CREDITS: 
-https://www.canva.com/colors/color-palettes/the-deep-blue/ -- color palette 
+https://www.canva.com/colors/color-palettes/luscious-lemonade/ -- color palette 
