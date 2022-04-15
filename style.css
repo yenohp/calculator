@@ -1,0 +1,30 @@
+body{
+ display: flex;
+ flex-flow:column wrap;
+ justify-content: center;
+ align-items: center;
+ background-color: #F8EA8C; /* Yellow*/
+ color: white;
+ margin: 0;
+}
+
+.header,.footer{
+    background-color: #E1C340; /* Freesia */
+    
+}
+.content{
+    display: flex;
+    margin: 20px;
+}
+.calcBody{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 600px;
+    height: 600px;
+}
+
+.calcMemory{
+    border: 2px solid gray;
+    width: 300px;
+    height: 600px;
+}
