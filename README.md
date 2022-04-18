@@ -33,3 +33,13 @@ Users should be able to:
 
 CREDITS: 
 https://www.canva.com/colors/color-palettes/luscious-lemonade/ -- color palette 
+
+
+====================================
+Idea:
+Create an empty array (not on each click event)
+    assign first value of array to be 0 if one of the operators is clicked first
+    push value to array everytime an operator is clicked
+    if the array has 3 elements, and an operator button is clicked, then the array is emptied and the first value is the result of the previous operation. (i.e. 2 + 3 + => 6 + ...)
+
+Just need to figure out how to evaluate and display (toString?)
