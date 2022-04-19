@@ -30,25 +30,10 @@ Users should be able to:
 10. Keyboard support?
 
 ====================================
+PSEUDO:
+1. Only record a number after an operator is clicked
+1a. Enter infinite numbers, number is recorded when an operator is clicked.
 
-CREDITS: 
-https://www.canva.com/colors/color-palettes/luscious-lemonade/ -- color palette 
 
-
-====================================
-Idea:
-Create an empty array (not on each click event)
-    assign first value of array to be 0 if one of the operators is clicked first
-    push value to array everytime an operator is clicked
-    if the array has 3 elements, and an operator button is clicked, then the array is emptied and the first value is the result of the previous operation. (i.e. 2 + 3 + => 6 + ...)
-    if(arr.length == 3 && e.target.className == 'operators'){
-        destructure x,y,operator
-        call operations function
-        empty array, place returned value into array
-    }
-
-Just need to figure out how to evaluate and display (toString?)
-
-destructure array x = arr[0], y=arr[2], operation = arr[1] -> create a separate string variable to hold stringified array (before evaluate) -> turn returned operation to new string (after evaluate)
-
-TODO: Display current situation, then work on doing the actual operation functions
+HOW TO FIX:
+Instead of having two values (firstValue secondValue), just change one value and push that to the array.

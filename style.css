@@ -60,7 +60,9 @@ button{
 #ac{
     flex-grow: 2;
 }
-
+.hover{
+    background-color: blue;
+}
 .operators:hover{
     background-color: blue;
 }
